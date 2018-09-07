@@ -1,0 +1,24 @@
+//overrides
+@import "core/variables";
+@import "core/normalize";
+
+
+// core styles
+@import "core/mixins";
+@import "core/global";
+@import "core/fonts";
+
+//third party
+@import "../../node_modules/slick-carousel/slick/slick.scss";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+
+// modules styles
+@import "modules/custombootstrap";
+@import "modules/index";
+@import "modules/postkod";
+@import "modules/template";
+@import "modules/genom";
+
+
+
