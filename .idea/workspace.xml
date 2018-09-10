@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="788f269a-a23c-4dca-8bdb-09b39e902acf" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/build/css/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/build/css/main.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/build/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/js/main.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/js/main.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/style/modules/_index.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/modules/_index.scss" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/style/modules/_custombootstrap.scss" beforeDir="false" afterPath="$PROJECT_DIR$/src/style/modules/_custombootstrap.scss" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -38,7 +36,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="main.js" pinned="false" current-in-tab="true">
+      <file leaf-file-name="main.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/js/main.js">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
@@ -55,6 +53,15 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="544">
               <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="_custombootstrap.scss" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/style/modules/_custombootstrap.scss">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
             </state>
           </provider>
         </entry>
@@ -81,10 +88,10 @@
       <find>top_na</find>
       <find>work_m</find>
       <find>@in</find>
-      <find />
+      <find>@include mob</find>
       <find>tile</find>
       <find>menu-item</find>
-      <find />
+      <find>@include mobile</find>
       <find>circle</find>
       <find>top_ti</find>
       <find>tiles</find>
@@ -116,13 +123,13 @@
         <option value="$PROJECT_DIR$/src/style/modules/_postkod.scss" />
         <option value="$PROJECT_DIR$/src/index.html" />
         <option value="$PROJECT_DIR$/src/view/general/header.html" />
-        <option value="$PROJECT_DIR$/src/style/modules/_custombootstrap.scss" />
         <option value="$PROJECT_DIR$/src/genom.html" />
         <option value="$PROJECT_DIR$/src/template.html" />
         <option value="$PROJECT_DIR$/src/postkod.html" />
         <option value="$PROJECT_DIR$/src/style/core/_variables.scss" />
         <option value="$PROJECT_DIR$/src/style/modules/_index.scss" />
         <option value="$PROJECT_DIR$/src/js/main.js" />
+        <option value="$PROJECT_DIR$/src/style/modules/_custombootstrap.scss" />
       </list>
     </option>
   </component>
@@ -147,9 +154,8 @@
       <path value="$PROJECT_DIR$/package.json" />
     </packageJsonPaths>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-1288" />
-    <option name="y" value="-8" />
     <option name="width" value="1296" />
     <option name="height" value="1000" />
   </component>
@@ -279,12 +285,12 @@
       <workItem from="1536135382244" duration="20413000" />
       <workItem from="1536219393780" duration="24525000" />
       <workItem from="1536300771662" duration="31563000" />
-      <workItem from="1536559751429" duration="19550000" />
+      <workItem from="1536559751429" duration="19961000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="112596000" />
+    <option name="totallyTimeSpent" value="113007000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1288" y="-8" width="1296" height="1000" extended-state="6" />
@@ -633,13 +639,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/modules/_custombootstrap.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="185">
-          <caret line="45" column="28" selection-start-line="45" selection-start-column="28" selection-end-line="45" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/template.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
@@ -718,13 +717,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/style/modules/_index.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="544">
-          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/js/main.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -732,6 +724,20 @@
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/modules/_index.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="544">
+          <caret line="35" column="13" selection-start-line="35" selection-start-column="13" selection-end-line="35" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/style/modules/_custombootstrap.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="106" column="21" selection-start-line="106" selection-start-column="21" selection-end-line="106" selection-end-column="21" />
         </state>
       </provider>
     </entry>
