@@ -647,19 +647,6 @@ html.hidden {
     position: relative;
     z-index: 1;
   }
-  .enp_wrap {
-    display: flex;
-    justify-content: space-between;
-    padding-right: 107px;
-    padding-bottom: 36px;
-    @include tablet-sm {
-      padding-right: 15px;
-    }
-    @include tablet-sm {
-      flex-wrap: wrap;
-      padding-left: 15px;
-    }
-  }
   .menu_title {
     color: $white;
     font-size: 12px;
@@ -668,43 +655,28 @@ html.hidden {
     margin-bottom: 0;
     line-height: 24px;
   }
-  .enp_menu {
-    width: 100%;
-  }
-  .enp_product {
-    max-width: 292px;
-    @include tablet-sm {
-      max-width: none;
-    }
-  }
-  .enp_solution {
-    max-width: 292px;
-    @include tablet-sm {
-      max-width: none;
-    }
-  }
   .enp_file {
-    max-width: 399px;
+    padding-left: 7px;
     @include tablet-sm {
-      max-width: none;
+      padding-left: 15px;
     }
   }
   .enp_company {
-    max-width: 156px;
+    padding-left: 22px;
+    padding-right: 13px;
     @include tablet-sm {
-      max-width: none;
-      .enp_items {
-        margin-bottom: 35px;
-      }
+      padding-left: 15px;
+      padding-right: 15px;
     }
   }
+
   .enp_items {
     list-style: none;
     padding-left: 0;
     padding-top: 9px;
     margin-bottom: 30px;
     @include tablet-sm {
-      margin-bottom: 26px;
+      margin-bottom: 27px;
     }
     .menu-item {
       padding-left: 0;
@@ -748,10 +720,11 @@ html.hidden {
     display: flex;
     justify-content: space-between;
     align-items: flex-end;
+    margin-top: 36px;
     @include tablet-sm {
       flex-wrap: wrap;
       flex-direction: column-reverse;
-      margin: 0 27px;
+      margin: 41px 27px 0;
       padding-top: 29px;
     }
   }
