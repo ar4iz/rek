@@ -13,8 +13,7 @@
                 $(this).children('ul').removeClass('active');
             }
         );
-        $('.menuBtn').click(function(e){
-            e.preventDefault();
+        $('.navbar-toggler').click(function(){
             $('.mobileNav').addClass('active');
             $('html').addClass('hidden');
         });
