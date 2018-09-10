@@ -23,15 +23,14 @@
     color: $white;
     padding-top: 12px;
     @include mobile {
-      padding: 0 15px;
       margin-bottom: 25px;
+      padding-top: 0;
     }
   }
   p {
     color: $white;
     font-size: 16px;
     @include mobile {
-      padding: 0 15px;
       line-height: 20px;
     }
   }
@@ -40,7 +39,7 @@
   background: #f0f2f5;
   padding: 41px 0 57px;
   @include mobile {
-    padding: 29px 15px;
+    padding: 29px 0;
   }
 }
 .rubric_item {
@@ -55,25 +54,23 @@
     margin: 0 auto 24px;
   }
   .rubric_icon {
-    max-width: 190px;
-    width: 100%;
-    text-align: center;
-    height: 100%;
     display: flex;
-    align-items: center;
     justify-content: center;
     @include mobile {
-      padding-left: 16px;
-      max-width: 46px;
+      padding-right: 2px;
     }
   }
   .rubric_text {
-    padding: 49px 40px 50px 5px;
+    padding: 49px 40px 50px 8px;
     @include mobile {
-      padding: 15px 13px 2px;
+      padding: 15px 12px 2px;
     }
     h2 {
       margin-bottom: 13px;
+      letter-spacing: -0.6px;
+      @include tablet-sm {
+        letter-spacing: normal;
+      }
     }
     p {
       font-size: 16px;

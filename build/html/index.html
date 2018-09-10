@@ -20,62 +20,56 @@
 </head>
 <body>
 	<header class="header">
-		<div class="container">
-			<div class="row">
-				<div class="header_wrap">
-					<div class="logo_wrap">
-						<a href="/">
-							<img src="../img/logo.svg" alt="rek.ai">
-						</a>
-					</div>
-					<div class="top_nav">
-						<ul class="menu_list">
-							<li class="menu-item">
-								<a href="#">Start</a>
+		<nav class="navbar navbar-expand-lg">
+			<div class="container">
+				<div class="row w-100">
+					<a class="navbar-brand" href="#">
+						<img src="../img/logo.svg" alt="rek.ai">
+					</a>
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="menuBtn">MENY <i class="fas fa-bars"></i></span>
+					</button>
+					<div class="collapse navbar-collapse justify-content-between" id="navbarSupportedContent">
+						<ul class="navbar-nav">
+							<li class="nav-item">
+								<a class="nav-link" href="#">Start <span class="sr-only">(current)</span></a>
 							</li>
-							<li class="menu-item">
-								<a href="#">Kundcase</a>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Kundcase</a>
 							</li>
-							<li class="menu-item menu-item-has-children">
-								<a href="#">Lösningen</a>
-								<ul class="sub-menu">
-									<li class="menu-item">
-										<a href="#">Teknisk översikt</a>
-									</li>
-									<li class="menu-item">
-										<a href="#">CMS-integration</a>
-									</li>
-									<li class="menu-item">
-										<a href="#">Förvaltning</a>
-									</li>
-									<li class="menu-item">
-										<a href="#">Utveckling</a>
-									</li>
-									<li class="menu-item">
-										<a href="#">Egna värden</a>
-									</li>
-								</ul>
+							<li class="nav-item active dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+									Lösningen
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item" href="#">Teknisk översikt</a>
+									<a class="dropdown-item" href="#">CMS-integration</a>
+									<a class="dropdown-item" href="#">Förvaltning</a>
+									<a class="dropdown-item" href="#">Utveckling</a>
+									<a class="dropdown-item" href="#">Egna värden</a>
+								</div>
 							</li>
-							<li class="menu-item">
-								<a href="#">Kontakt</a>
+							<li class="nav-item">
+								<a class="nav-link" href="#">Kontakt</a>
 							</li>
 						</ul>
+						<ul class="nav navbar-nav align-items-center">
+							<li>
+								<a href="#">Logga in</a>
+							</li>
+							<li><button type="button" class="btn_transparent">CTA</button></li>
+						</ul>
 					</div>
-					<div class="log_btns">
-						<a href="#" class="log_link">Logga in</a>
-						<a href="#" class="btn_transparent">CTA</a>
-					</div>
-					<a href="#" class="menuBtn">MENY <i class="fas fa-bars"></i></a>
 				</div>
 			</div>
-		</div>
+		</nav>
 	</header>
 	<div class="wrapper">
 		<main>
 			<div class="hero_wrap">
 				<div class="container">
 					<div class="row">
-						<div class="col-lg-6 col-md-12 pl-0">
+						<div class="col-lg-6 col-md-12 pl-lg-0">
 							<div class="top_title">
 								<h1>
 									Skapa framtidens <br />
@@ -85,7 +79,7 @@
 								<a href="#" class="info_btn">Jag vill ha en personlig demo</a>
 							</div>
 						</div>
-						<div class="col-lg-6 col-md-12 pl-0 pr-0">
+						<div class="col-lg-6 col-md-12 pl-0 pr-lg-0">
 							<div class="work_monitor">
 								<div class="monitor_wrap">
 									<img src="../img/imac.png" alt="">
@@ -136,19 +130,23 @@
 			<div class="reforms_wrap">
 				<div class="container">
 					<div class="row">
-						<div class="reform_wrap">
+						<div class="col-lg-4 item_padding">
 							<div class="reform_item">
 								<i class="far fa-thumbs-up"></i>
 								<h3>Förbättra upplevelsen av webbplatsen</h3>
 								<p>Låt dina användare hitta informationen utan att leta</p>
 								<a href="#">Läs mer<i class="fas fa-arrow-right"></i></a>
 							</div>
+						</div>
+						<div class="col-lg-4 item_padding">
 							<div class="reform_item">
 								<i class="fas fa-chart-line"></i>
 								<h3>Öka uppfyllnaden av uppsatta mål</h3>
-								<p>LHjälp dina besökare fullfölja sin uppgift och öka konverteringar</p>
+								<p>Hjälp dina besökare fullfölja sin uppgift och öka konverteringar</p>
 								<a href="#">Läs mer<i class="fas fa-arrow-right"></i></a>
 							</div>
+						</div>
+						<div class="col-lg-4 item_padding">
 							<div class="reform_item">
 								<i class="fas fa-hand-holding-usd"></i>
 								<h3>Spara tid och pengar för webbanalys</h3>
@@ -167,19 +165,23 @@
 			<div class="tiles_wrap">
 				<div class="container">
 					<div class="row">
-						<div class="tile_wrap">
+						<div class="col-lg-4 tile_padding">
 							<div class="tile_item">
 								<div class="tile_thumb">
 									<img src="../img/logo_1.png" alt="">
 								</div>
 								<p>-25%<span>BOUNCE RATE</span></p>
 							</div>
+						</div>
+						<div class="col-lg-4 tile_padding">
 							<div class="tile_item">
 								<div class="tile_thumb">
 									<img src="../img/logo_2.png" alt="">
 								</div>
 								<p>-67%<span>exit</span></p>
 							</div>
+						</div>
+						<div class="col-lg-4 tile_padding">
 							<div class="tile_item">
 								<div class="tile_thumb">
 									<img src="../img/logo_3.png" alt="">
@@ -231,9 +233,9 @@
 				<div class="row">
 					<div class="enp_wrap w-100">
 						<div class="enp_menu enp_product">
-							<span class="menu_title">
+							<h3 class="menu_title">
 								Produkten
-							</span>
+							</h3>
 							<ul class="enp_items">
 								<li class="menu-item">
 									<a href="#">Översikt</a>
@@ -250,9 +252,9 @@
 							</ul>
 						</div>
 						<div class="enp_menu enp_file">
-							<span class="menu_title">
+							<h3 class="menu_title">
 								Kundcase
-							</span>
+							</h3>
 							<ul class="enp_items">
 								<li class="menu-item">
 									<a href="#">Falkenberg e-tjänster</a>
@@ -272,9 +274,9 @@
 							</ul>
 						</div>
 						<div class="enp_menu enp_solution">
-							<span class="menu_title">
+							<h3 class="menu_title">
 								Lösningen
-							</span>
+							</h3>
 							<ul class="enp_items">
 								<li class="menu-item">
 									<a href="#">Teknisk översikt</a>
@@ -300,9 +302,9 @@
 							</ul>
 						</div>
 						<div class="enp_menu enp_company">
-							<span class="menu_title">
+							<h3 class="menu_title">
 								Företaget
-							</span>
+							</h3>
 							<ul class="enp_items">
 								<li class="menu-item">
 									<a href="#">Vår resa</a>

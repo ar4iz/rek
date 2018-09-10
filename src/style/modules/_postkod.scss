@@ -157,9 +157,17 @@
   width: 100%;
   text-align: center;
   padding: 21px 0 31px;
+  @include tablet {
+    &:first-child {
+      margin-right: 15px;
+    }
+  }
   @include tablet-sm {
     min-height: 223px;
     margin-bottom: 25px;
+    &:first-child {
+      margin-right: 0;
+    }
   }
   i {
     font-size: 50px;
